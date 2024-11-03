@@ -8,7 +8,7 @@
 
 body{
     height: 100vh;
-    width: 100vh;
+    width: 100%;
     overflow: hidden;
     background: linear-gradient(135deg, rgb(58, 7, 168), rgb(49, 8, 49));
 }
@@ -92,4 +92,10 @@ body{
     }
 
     
+}
+@media (max-width: 500px){
+    
+    .container{
+        max-width: 85%;
+            }
 }
